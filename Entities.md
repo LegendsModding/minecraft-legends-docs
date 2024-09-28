@@ -646,7 +646,7 @@ Defines the presentation triggers this entity can respond to, and the animation 
 
 Determine a projectile trail from projectile trail collection.
 
-### badger:removal_time
+### badger:removal_time (_duplicate?_)
 
 destroys an entity after a given period of time
 
@@ -1807,7 +1807,7 @@ Customized VFX behaviour upon being destroyed.
 
 Modifiers for min and max accuracy range based on difficulty.
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -1818,7 +1818,7 @@ Modifiers for min and max accuracy range based on difficulty.
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1845,7 +1845,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for build speed based on difficulty and custom game options
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -1856,7 +1856,7 @@ Modifiers for build speed based on difficulty and custom game options
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1882,7 +1882,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifier for building costs based on difficulty or custom game setting.
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -1893,7 +1893,7 @@ Modifier for building costs based on difficulty or custom game setting.
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1919,7 +1919,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for damage based on difficulty
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -1930,7 +1930,7 @@ Modifiers for damage based on difficulty
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1957,7 +1957,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for fall damage on difficulty and custom game option
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -1968,7 +1968,7 @@ Modifiers for fall damage on difficulty and custom game option
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -1994,7 +1994,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for fall damage distance based on difficulty and custom game option
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2005,7 +2005,7 @@ Modifiers for fall damage distance based on difficulty and custom game option
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2031,7 +2031,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for gravity based on difficulty and custom game options
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2042,7 +2042,7 @@ Modifiers for gravity based on difficulty and custom game options
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2068,7 +2068,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifier for health regeneration based on difficulty or custom game setting.
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2079,7 +2079,7 @@ Modifier for health regeneration based on difficulty or custom game setting.
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2105,7 +2105,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for jump gravity based on difficulty and custom game options
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2116,7 +2116,7 @@ Modifiers for jump gravity based on difficulty and custom game options
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2142,7 +2142,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for jump height based on difficulty and custom game options
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2153,7 +2153,7 @@ Modifiers for jump height based on difficulty and custom game options
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2179,7 +2179,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for knockback based on difficulty and custom game option
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2190,7 +2190,7 @@ Modifiers for knockback based on difficulty and custom game option
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2216,7 +2216,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for knockback resistance based on difficulty and custom game options
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2227,7 +2227,7 @@ Modifiers for knockback resistance based on difficulty and custom game options
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2253,7 +2253,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifiers for max health based on difficulty
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2264,7 +2264,7 @@ Modifiers for max health based on difficulty
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2312,7 +2312,7 @@ Modifiers for damage resistances based on difficulty
 |                | setting_name           | Name of the custom game setting to read from.                                                                                                                 |
 |                | difficulties           | The settings for each difficulty level.                                                                                                                       |
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -2338,7 +2338,7 @@ For each difficulty, the following modifiers are applicable:
 
 Modifier for mob spawning costs based on difficulty or custom game setting.
 
-#### **Custom Game Settings**
+**Custom Game Settings**:
 
 | **Type**       | **Name**                     | **Description**                                                                                                  |
 |----------------|------------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -2349,7 +2349,7 @@ Modifier for mob spawning costs based on difficulty or custom game setting.
 
 ---
 
-#### **Difficulty Settings**
+**Difficulty Settings**:
 
 | **Type**       | **Difficulty**  | **Modifiers**                                                                                                          |
 |----------------|------------------|------------------------------------------------------------------------------------------------------------------------|
@@ -3439,7 +3439,7 @@ Defines the entity as a multi segmented buildable.
 | String| stepup_name| | (Optional) Name of step-up mid section archetype |
 | String| style| | How is this multipart laid out 'floating' or 'grounded'? 'floating_follow_terrain' can be used for a connected multistep buildable that attempts to avoid intersecting terrain. |
 
-### badger:music_emitter_states
+### badger:music_emitter_states (BP)
 
 Defines the current state of this music emitter entity.
 
@@ -3590,7 +3590,7 @@ This allows an entity to be used as a frame of reference for heuristic calculati
 
 Whether or not this entity counts for team popcap.
 
-### badger:presentation_event
+### badger:presentation_event (_unsure if good_)
 
 Defines the triggers this entity can respond to, and the entities to spawn (with optional probabilities for success).
 
@@ -3690,7 +3690,7 @@ A spawner that can be used to refund mobs
 | Array| exclude_tags| | Forbidden tags on entities to refund. |
 | Array| include_tags| | Required tags on entities to refund. |
 
-### badger:removal_time
+### badger:removal_time (possible _Duplicate_)
 
 destroys an entity after a given period of time
 
@@ -3724,9 +3724,12 @@ An entity with this component will prevent other entities in range of it from de
 
 Defines entity's ability to resist being affected by status effects.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| | JSON Object| | status_effect_name<br/><h5><p id="resistance_persist_time">resistance_persist_time</p></h5>Defines how long the status effect will be blocked from reactivating after ending. A value of -1 allows the status effect to be refreshed even before the active effect ends.</br><br><h5><p id="resisted">resisted</p></h5>Sets whether or not this status effect is resisted completely.</br><br><h5><p id="time">time</p></h5>Sets how long this status effect lasts for, in seconds.</br><br> |
+| **Type**       | **Name**              | **Description**                                                                                                        |
+|----------------|-----------------------|------------------------------------------------------------------------------------------------------------------------|
+| **JSON Object**| **status_effect_name** | Defines the name of the status effect and its associated properties.                                                   |
+|                | resistance_persist_time| Specifies the duration (in seconds) that the status effect is blocked from reactivating after it ends. A value of -1 allows the status effect to be refreshed before the current effect ends. |
+|                | resisted               | Indicates whether this status effect is completely resisted.                                                           |
+|                | time                   | Sets the duration (in seconds) for how long this status effect will last.                                              |
 
 ### badger:resource_cost_multiplier
 
@@ -3741,9 +3744,11 @@ This value scales resource costs for the player it is attached to, including bui
 
 Modify the Pop Cap for a list of resources
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| Array| modifiers| | Key value pairs that describe which resources we are modifing<br/><h5><p id="amount">amount</p></h5>The amount to modify the resource cap by.</br><br><h5><p id="resource">resource</p></h5>The name of the resource to modify</br><br> |
+| **Type** | **Name**    | **Description**                                                                 |
+|----------|-------------|---------------------------------------------------------------------------------|
+| **Array** | **modifiers** | Key-value pairs that describe which resources are being modified.               |
+|          | amount      | The amount by which to modify the resource cap.                                   |
+|          | resource    | The name of the resource to be modified.                                          |
 
 ### badger:resource_trader
 
@@ -3757,11 +3762,16 @@ Marks this entity as a place to exchange resources for other resources.
 
 Makes this entity act as a respawn point for players.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| String| alliance_rule| | Alliance rule tag name. |
-| String| player_respawned_trigger| | The trigger event to send when a player respawns at a respawn point |
-| JSON Object| spawn_blocking| | Settings to control what blocks a spawn point<br/><h5><p id="blocking_alliance_rule">blocking_alliance_rule</p></h5>The Alliance rule tag name for checking respawn blocking.</br><br><h5><p id="blocking_radius">blocking_radius</p></h5>The radius around the respawn point to check for entities potentially blocking respawning</br><br><h5><p id="tag_filter">tag_filter</p></h5>The tag filter used to determine if an entity should block a respawn point</br><br><h5><p id="exclude_tags">exclude_tags</p></h5>Array of tags to exlucde for entities blocking respawn points</br><br><h5><p id="include_tags">include_tags</p></h5>Array of tags required for entities blocking respawn points</br><br> |
+| **Type**       | **Name**                   | **Description**                                                                                             |
+|----------------|----------------------------|-------------------------------------------------------------------------------------------------------------|
+| **String**     | **alliance_rule**           | The tag name that defines the alliance rule.                                                                |
+| **String**     | **player_respawned_trigger**| The event trigger to send when a player respawns at a respawn point.                                         |
+| **JSON Object**| **spawn_blocking**          | Settings that control what blocks a respawn point.                                                          |
+|                | blocking_alliance_rule      | The alliance rule tag name used to check for respawn blocking.                                               |
+|                | blocking_radius             | The radius around the respawn point used to check for entities that may block respawning.                    |
+|                | tag_filter                  | The tag filter used to determine whether an entity should block a respawn point.                             |
+|                | exclude_tags                | An array of tags to exclude from entities that block respawn points.                                         |
+|                | include_tags                | An array of tags that must be present for entities to block respawn points.                                  |
 
 ### badger:rewards
 
@@ -3825,13 +3835,28 @@ Tags added on top of entities existing tags spawned by this spawner.
 
 Defines the rules for when or where to spawn entities.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| JSON Object| block_type_rule| | Defines optional block type spawner rule.<br/><h5><p id="valid_types">valid_types</p></h5>Defines a list of valid block types names to spawn entities on.</br><br> |
-| JSON Object| bsharp_rule| | Defines optional bSharp global variable spawner rule.<br/><h5><p id="value">value</p></h5>Defines the value of the global variable that causes the spawner to stop spawning.</br><br><h5><p id="variable">variable</p></h5>Defines name of the bSharp global variable.</br><br> |
-| JSON Object| distance_rule| | Defines optional distance spawner rule.<br/><h5><p id="distance_data">distance_data</p></h5>Defines optional entity distance rule.</br><br><h5><p id="alliance_rule">alliance_rule</p></h5>Defines the alliance rule of an entity that can prevent spawning.</br><br><h5><p id="max_distance">max_distance</p></h5>Defines the distance that entities have to be within before the spawner can start spawning.</br><br><h5><p id="min_distance">min_distance</p></h5>Defines the distance that entities cannot be within before the spawner can start spawning.</br><br><h5><p id="tag_filter">tag_filter</p></h5>filter object</br><br><h5><p id="exclude_tags">exclude_tags</p></h5>list of exclude tags</br><br><h5><p id="include_tags">include_tags</p></h5>list of include tags</br><br><h5><p id="village_bounds_distance_data">village_bounds_distance_data</p></h5>Defines optional village bounds distance spawner rule.</br><br><h5><p id="destruction_spawn_delay">destruction_spawn_delay</p></h5>Defines the duration of time waited after the destruction of a village in range before applying the isDestroyed rule.</br><br><h5><p id="horde_names">horde_names</p></h5>Defines the hordes to check. Do not define to check all villages of any horde.</br><br><h5><p id="is_destroyed">is_destroyed</p></h5>Defines if this rule only applies to destroyed villages. Do not define to check both alive and destroyed villages.</br><br><h5><p id="max_distance">max_distance</p></h5>Defines the padding from village bounds the spawner can start spawning.</br><br><h5><p id="min_distance">min_distance</p></h5>Defines the padding from village bounds the spawner cannot be in.</br><br><h5><p id="village_distance_data">village_distance_data</p></h5>Defines optional village distance spawner rule.</br><br><h5><p id="destruction_spawn_delay">destruction_spawn_delay</p></h5>Defines the duration of time waited after the destruction of a village in range before applying the isDestroyed rule.</br><br><h5><p id="horde_names">horde_names</p></h5>Defines the hordes to check. Do not define to check all villages of any horde.</br><br><h5><p id="is_destroyed">is_destroyed</p></h5>Defines if this rule only applies to destroyed villages. Do not define to check both alive and destroyed villages.</br><br><h5><p id="max_distance">max_distance</p></h5>Defines the distance that any village has to be within before the spawner can start spawning.</br><br><h5><p id="min_distance">min_distance</p></h5>Defines the distance that a village cannot be within before the spawner can start spawning.</br><br> |
-| Boolean| spawn_if_village_occupied| | Defines optional flag for whether this spawner should spawn when a village is occupied or not. Omitting this option allows spawning regardless of the occupation state. |
-| JSON Object| time_of_day_rule| | Defines optional time of day spawner rule.<br/><h5><p id="times">times</p></h5>Defines the times of day that this spawner is allowed to spawn during.</br><br> |
+| **Type**       | **Name**                         | **Description**                                                                                                                                                                         |
+|----------------|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **JSON Object** | **block_type_rule**              | Defines an optional block type spawner rule.                                                                                                                                             |
+|                | **valid_types** _(Array)_        | List of valid block type names that the spawner can use for spawning entities.                                                                                                           |
+| **JSON Object** | **bsharp_rule**                  | Defines an optional `bSharp` global variable spawner rule.                                                                                                                               |
+|                | **value** _(Number)_             | Value of the global variable that causes the spawner to stop spawning.                                                                                                                   |
+|                | **variable** _(String)_          | Name of the `bSharp` global variable used in this rule.                                                                                                                                  |
+| **JSON Object** | **distance_rule**                | Defines an optional distance spawner rule.                                                                                                                                               |
+|                | **distance_data** _(Object)_     | Specifies the optional entity distance rule.                                                                                                                                            |
+|                | **alliance_rule** _(String)_     | Defines an entity's alliance rule, determining whether the spawner should prevent spawning based on the entity’s alliance.                                                               |
+|                | **max_distance** _(Number)_      | Maximum distance that entities have to be within for the spawner to start spawning.                                                                                                       |
+|                | **min_distance** _(Number)_      | Minimum distance that entities cannot be within for the spawner to start spawning.                                                                                                        |
+|                | **tag_filter** _(Object)_        | Filter object defining conditions based on tags.                                                                                                                                          |
+|                | **exclude_tags** _(Array)_       | List of tags that must be excluded from the spawning process.                                                                                                                            |
+|                | **include_tags** _(Array)_       | List of tags that must be included for spawning to occur.                                                                                                                                |
+|                | **village_bounds_distance_data** _(Object)_ | Specifies village bounds distance-based rules for spawning.                                                                                                                              |
+|                | **destruction_spawn_delay** _(Number)_ | Duration of time (in seconds) waited after the destruction of a village before applying the "isDestroyed" rule.                                                                         |
+|                | **horde_names** _(Array)_        | Defines the hordes to check. If not defined, all villages of any horde are checked.                                                                                                      |
+|                | **is_destroyed** _(Boolean)_     | Determines whether this rule applies only to destroyed villages. If not defined, the rule checks both alive and destroyed villages.                                                       |
+| **Boolean**    | **spawn_if_village_occupied**    | Specifies whether this spawner should spawn when a village is occupied. Omitting this option allows spawning regardless of the occupation state.                                          |
+| **JSON Object** | **time_of_day_rule**             | Defines an optional time-of-day-based spawner rule.                                                                                                                                      |
+|                | **times** _(Array)_              | Defines the specific times of day during which the spawner is allowed to spawn entities.                                                                                                 |
 
 ### badger:sprint
 
@@ -3878,10 +3903,13 @@ Controls if this entity should only be partitioned on demand.
 
 Defines this entity as a status effect prototype.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| String| applied_name| | The name given to this status effect. |
-| JSON Object| default_resistance| | Sets the default resistance parameters, which are used if the affected entity does not have a resistance defined for this status effect (see badger:resist_status).<br/><h5><p id="resistance_persist_time">resistance_persist_time</p></h5>Defines how long this status effect will be blocked from reactivating after ending. A value of -1 allows the status effect to be refreshed even before the active effect ends.</br><br><h5><p id="resisted">resisted</p></h5>Sets whether or not this status effect is resisted completely by default.</br><br><h5><p id="time">time</p></h5>Sets the default time this status effect lasts for.</br><br> |
+| **Type**       | **Name**            | **Description**                                                                                                                                             |
+|----------------|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **String**     | **applied_name**     | The name assigned to this status effect.                                                                                                                    |
+| **JSON Object**| **default_resistance** | Sets the default resistance parameters, used if the entity does not have a specific resistance for this status effect (refer to `badger:resist_status`).      |
+|                | resistance_persist_time | Duration (in seconds) for which the status effect is blocked from reactivating after it ends. A value of `-1` allows the effect to refresh before ending.    |
+|                | resisted             | Determines if this status effect is completely resisted by default.                                                                                          |
+|                | time                 | Specifies the default duration (in seconds) for which this status effect lasts.                                                                              |
 
 ### badger:status_effect_ramp_off
 
@@ -3895,9 +3923,11 @@ Causes a gradual reduction of numerical effects, leading up to the expiry of the
 
 Defines the settings used when tracking telemetry for certain status effects.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| Array| track| | List of status effect names to track.<br/><h5><p id="status_effect_applied_name">status_effect_applied_name</p></h5>Applied name of the status effect to track.</br><br><h5><p id="telemetry_id">telemetry_id</p></h5>Name of the telemetry event.</br><br> |
+| **Type** | **Name**                          | **Description**                                                                                       |
+|----------|-----------------------------------|-------------------------------------------------------------------------------------------------------|
+| Array    | **track**                         | List of status effect names to track.                                                                 |
+|          | **status_effect_applied_name**    | The name of the status effect that has been applied and is being tracked.                             |
+|          | **telemetry_id**                  | The name of the telemetry event associated with the tracking of the status effect.                     |
 
 ### badger:sub_objective_health_bar
 
@@ -3929,13 +3959,15 @@ Defines this entity as a status effect that causes its host to temporary switch 
 
 Modifies the tags of entities within a certain radius, for as long as they are in that radius
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| String| alliance_rule_filter| | Alliance rule filter to determine who to apply tags to |
-| Decimal| radius| | Range to apply tag modifications to |
-| JSON Object| tag_filter| | Tag filter to determine who to apply tags to<br/><h5><p id="exclude_tags">exclude_tags</p></h5>Exclude tags for filter</br><br><h5><p id="include_tags">include_tags</p></h5>Include tags for filter</br><br> |
-| Array| tags_to_add| | Tags to add |
-| Array| tags_to_remove| | Tags to remove |
+| **Type**       | **Name**                     | **Description**                                                            |
+|----------------|------------------------------|----------------------------------------------------------------------------|
+| **String**     | **alliance_rule_filter**     | Alliance rule filter to determine who to apply tags to.                   |
+| **Decimal**    | **radius**                   | Range to apply tag modifications to.                                      |
+| **JSON Object**| **tag_filter**               | Tag filter to determine who to apply tags to.                             |
+|                | exclude_tags                 | Tags to exclude from the filter.                                          |
+|                | include_tags                 | Tags to include in the filter.                                           |
+| **Array**      | **tags_to_add**              | Tags to add.                                                              |
+| **Array**      | **tags_to_remove**           | Tags to remove.                                                           |
 
 ### badger:tags
 
@@ -3961,18 +3993,22 @@ Defines the actions that get carried out when a target is selected by a targetin
 
 Defines this entity as a target assigner which pushes priority targets to influenced entities.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| String| alliance_rule_filter| | Alliance rule to filter target by. |
-| Boolean| despawn_on_target_lost| | When true, the entire order will end when the target is destroyed, cancelling movement. |
-| Decimal| drop_target_range| | How far a selected target needs to be from the assigner before it is dropped. |
-| Decimal| find_target_range| | How far will the assigner will search for a target to select/assign. |
-| Boolean| force_move| | If this command is a force move command, will adjust enemy highlighting to match the action. |
-| Decimal| force_target_range| | Within this range, mobs will go directly to attack the target, ignoring any secondary targets that are closer. |
-| Boolean| parent_self_to_target| | When true, the target assigner entity will parent itself to the targeted entity. |
-| JSON Object| pre_redirect_target_filter| | Early phase alliance and tag filter BEFORE redirection. Redirector hurtboxes that get found in this phase will redirect you to target the default hurtbox, which will get further filtered by the main tag filter. Don't change this without coder approval.<br/><h5><p id="exclude_tags">exclude_tags</p></h5>Array of tags to exclude (any of) when filtering targets.</br><br><h5><p id="include_tags">include_tags</p></h5>Array of tags to require (all of) when filtering targets.</br><br> |
-| Boolean| single_target| | When true, the target assigner will stop searching for targets after its first selected target is destroyed. |
-| JSON Object| target_filter| | Alliance and tag filter used by this assigner to filter targets.<br/><h5><p id="exclude_tags">exclude_tags</p></h5>Array of tags to exclude (any of) when filtering targets.</br><br><h5><p id="include_tags">include_tags</p></h5>Array of tags to require (all of) when filtering targets.</br><br> |
+| **Type**       | **Name**                         | **Description**                                                                                                                       |
+|----------------|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| **String**     | **alliance_rule_filter**         | Alliance rule used to filter the target by.                                                                                          |
+| **Boolean**    | **despawn_on_target_lost**       | When true, the entire order ends when the target is destroyed, cancelling movement.                                                   |
+| **Decimal**    | **drop_target_range**            | The distance a selected target must be from the assigner before it is dropped.                                                       |
+| **Decimal**    | **find_target_range**            | The distance the assigner will search for a target to select or assign.                                                               |
+| **Boolean**    | **force_move**                   | If true, this command is a force move command, adjusting enemy highlighting to match the action.                                     |
+| **Decimal**    | **force_target_range**           | Within this range, mobs will directly attack the target, ignoring any secondary targets that are closer.                               |
+| **Boolean**    | **parent_self_to_target**        | When true, the target assigner entity will parent itself to the targeted entity.                                                      |
+| **JSON Object**| **pre_redirect_target_filter**    | Early phase alliance and tag filter before redirection. Redirector hurtboxes found in this phase will redirect to target the default hurtbox, which will be further filtered by the main tag filter. Changes require coder approval. |
+|                | exclude_tags                     | Array of tags to exclude (any of) when filtering targets.                                                                             |
+|                | include_tags                     | Array of tags to require (all of) when filtering targets.                                                                             |
+| **Boolean**    | **single_target**                | When true, the target assigner will stop searching for targets after its first selected target is destroyed.                          |
+| **JSON Object**| **target_filter**                | Alliance and tag filter used by this assigner to filter targets.                                                                       |
+|                | exclude_tags                     | Array of tags to exclude (any of) when filtering targets.                                                                             |
+|                | include_tags                     | Array of tags to require (all of) when filtering targets.                                                                             |
 
 ### badger:targeting
 
@@ -4073,9 +4109,12 @@ Tags that are used to filter entities for advanced direct groups.
 
 When applied to an entity, buffs itself under certain unlock conditions.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| Array| buffs| | The list of unlockable buffs used by this entity.<br/><h5><p id="buff_id">buff_id</p></h5>The buff to be applied to this entity.</br><br><h5><p id="has_unlock">has_unlock</p></h5>If true, this buff will only be active when this resource is acquired. If false, this buff will only be active if this resource is not acquired.</br><br><h5><p id="resource">resource</p></h5>The name of a resource used to enable or disable this buff.</br><br> |
+| **Type** | **Name** | **Description** |
+|----------|----------|------------------|
+| Array    | **buffs** | The list of unlockable buffs used by this entity. |
+|          | buff_id  | The specific buff to be applied to this entity. |
+|          | has_unlock | If true, this buff is active only when the specified resource is acquired. If false, the buff is active only when the resource is not acquired. |
+|          | resource | The name of the resource used to enable or disable this buff. |
 
 ### badger:village
 
@@ -4206,9 +4245,12 @@ A structure that must remain for the village to continue existing.
 
 Customized destruction behaviour when all Village Hearts are destroyed in a village.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| | List| | groups<br/><h5><p id="Decimal">Decimal</p></h5>delay</br><br><h5><p id="Decimal">Decimal</p></h5>interval</br><br><h5><p id="Boolean">Boolean</p></h5>disable_vfx</br><br> |
+| **Type**       | **Name**           | **Description**                                                                                         |
+|----------------|--------------------|---------------------------------------------------------------------------------------------------------|
+| **List**       | **groups**         | A list containing various group configurations.                                                        |
+|                | **delay** (Decimal)  | The delay before the group effect starts.                                                              |
+|                | **interval** (Decimal)| The interval between successive group effects.                                                          |
+|                | **disable_vfx** (Boolean)| A flag that determines whether visual effects should be disabled for this group.                       |
 
 ### badger:village_heart_disabled_actions
 
@@ -4334,16 +4376,18 @@ Entity will have a waypoint marker on the HUD
 
 Entity will have a waypoint marker on the HUD
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| Integer| compass_level| | Determines which compass level a non-team icon is shown in (-1 => onscreen and bottom, 0 => bottom, 1 => top) |
-| String| compass_max_range| | Maximum range value to be shown on compass (short, medium, long) |
-| Array| filter_tagsets| | Array of paired include and exclude tag arrays for choosing when this icon can appear.<br/><h5><p id="exclude_tags">exclude_tags</p></h5>Array of tags to exclude (any of) when filtering compass icons.</br><br><h5><p id="include_tags">include_tags</p></h5>Array of tags to require (any of) when filtering compass icons.</br><br> |
-| Boolean| hide_from_non_alliance| | Determines if waypoint should be hidden from opponents |
-| Decimal| waypoint_max_range| | Maximum range value |
-| Decimal| waypoint_max_range_alliance| | Maximum range value for opponent waypoint |
-| Decimal| waypoint_min_range| | Minimum range value |
-| Decimal| waypoint_min_range_alliance| | Minimum range value for opponent waypoint |
+| **Type**       | **Name**                          | **Description**                                                                                                   |
+|----------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Integer**    | **compass_level**                 | Determines the compass level where a non-team icon is displayed. Values: -1 (onscreen and bottom), 0 (bottom), 1 (top). |
+| **String**     | **compass_max_range**             | Maximum range value to be displayed on the compass (options: short, medium, long).                               |
+| **Array**      | **filter_tagsets**                | Array of paired include and exclude tag arrays for determining when this icon can appear.                        |
+|                | **exclude_tags**                  | Array of tags to exclude (any of) when filtering compass icons.                                                  |
+|                | **include_tags**                  | Array of tags to require (any of) when filtering compass icons.                                                  |
+| **Boolean**    | **hide_from_non_alliance**        | Determines if the waypoint should be hidden from opponents.                                                      |
+| **Decimal**    | **waypoint_max_range**            | Maximum range value for the waypoint.                                                                             |
+| **Decimal**    | **waypoint_max_range_alliance**   | Maximum range value for opponent waypoints.                                                                       |
+| **Decimal**    | **waypoint_min_range**            | Minimum range value for the waypoint.                                                                             |
+| **Decimal**    | **waypoint_min_range_alliance**   | Minimum range value for opponent waypoints.                                                                       |
 
 ### badger:world_collision
 
@@ -4383,12 +4427,16 @@ Specifies the type of zone that this buildable provides.
 
 Defines the different types of zones of control which allows this building to be constructed/online.
 
-| Type| Name| Default Value| Description |
-|:-----------:|:-----------:|:-----------:|:-----------:|
-| Array| exclude_tags| | the zones types that can not be overlapped for this placement. |
-| Array| include_tags| | the different types of zones of control which allows this building to be constructed/online. |
-| JSON Object| invalid_zone_block_conversion| | Block conversion data for when the structure is no longer in the required zone.<br/><h5><p id="duration_percentage">duration_percentage</p></h5>Percentage of build time it takes to perform block conversion.</br><br><h5><p id="modifiers">modifiers</p></h5>List of block conversion modifiers.</br><br><h5><p id="reversal_duration_percentage">reversal_duration_percentage</p></h5>Percentage of build time it takes to reverse block conversion.</br><br><h5><p id="top_to_bottom">top_to_bottom</p></h5>If true, block conversion happens from top to bottom, rather than bottom to top.</br><br> |
-| Boolean| set_offline_when_no_zone| | If set to true, this structure will be set offline instead of being destroyed if it's no longer in the required zone at any point. |
+| **Type**       | **Name**                           | **Description**                                                                                                                                                  |
+|----------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Array**      | **exclude_tags**                   | The zone types that cannot overlap for this placement.                                                                                                         |
+| **Array**      | **include_tags**                   | The different types of zones of control that allow this building to be constructed or come online.                                                             |
+| **JSON Object**| **invalid_zone_block_conversion**  | Block conversion data for when the structure is no longer in the required zone.                                                                                |
+|                | duration_percentage                 | The percentage of build time required to perform block conversion.                                                                                             |
+|                | modifiers                           | A list of block conversion modifiers.                                                                                                                           |
+|                | reversal_duration_percentage        | The percentage of build time required to reverse block conversion.                                                                                              |
+|                | top_to_bottom                       | If true, block conversion occurs from top to bottom, rather than bottom to top.                                                                                |
+| **Boolean**    | **set_offline_when_no_zone**       | If set to true, this structure will be set offline instead of being destroyed if it is no longer in the required zone at any point.                           |
 
 ### badger:zone_visualization
 
@@ -4408,7 +4456,3 @@ If this entity spawns entities, it will be bound by the cap of the type specifie
 | String| cap_type| | The cap type that entities shot or spawned by this spawner contribute towards. |
 | Integer| individual_cap| | If the total cap type is not reached, how many entities can any one instance of this spawner spawn individually. |
 | Array| toggled_actions| | List of action names on this entity that are disabled when either the cap type limit or the individual limit are reached. |
-
-## identifier
-
-The identifier is used to register the entity with the server. The matching identifier in the Entity Behavior JSON in the Resource Pack is what gives the entity its appearance.
