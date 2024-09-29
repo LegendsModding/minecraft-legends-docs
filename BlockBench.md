@@ -27,7 +27,7 @@ To use this plugin, you need [Blockbench](https://www.blockbench.net/downloads)
 
 ## Installing the plugin
 
-1) Download the [Minecraft: Legends plugin](https://github.com/Mojang/legends-blockbench-plugin/releases)
+1) Download the [Minecraft Legends plugin](https://github.com/Mojang/legends-blockbench-plugin/releases)
 
 2) Unzip the downloaded release.
 
