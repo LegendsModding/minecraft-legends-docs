@@ -17,7 +17,8 @@ We’re constantly expanding our documentation, so stay tuned for updates. Curre
    - [Geology Service](#geology-service)
 4. [Barrier Blocks](#barrier-blocks)
 5. [BSharp Scripting](#bsharp-scripting)
-6. [Contributing](CONTRIBUTING.md)
+6. [Wolverine](#wolverine)
+7. [Contributing](CONTRIBUTING.md)
 
 ## 📖 Overview
 
