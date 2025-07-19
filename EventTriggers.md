@@ -109,7 +109,7 @@ Example:
     "particles": "fx_impact"
 ```
 
-If you want to call more then one effect on a presentation event use this syntax:
+If you want to call more than one effect on a presentation event use this syntax:
 
 ```json
 "on_construction_end": {  

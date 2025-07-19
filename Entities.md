@@ -1110,8 +1110,8 @@ Handles allay movement information.
 | Decimal| bounce_speed| | How fast the allay bobs up and down. |
 | Vector [a, b, c]| landed_position| | Where the allay goes when it is working (offset from its target). |
 | Decimal| max_range| | Maximum distance the allay with travel to/from the player. When exceeded it disappears instead. |
-| Decimal| radius_scale| | How wide of a circle the allay makes around the target. Value of 1 should be just touching the corners. |
-| Vector [a, b, c]| spawn_offset| | Where the allay spawns/despawns in relation to the player |
+| Decimal| max_range| | Maximum distance the allay with travel to/from the player. When exceeded it will disappear instead. |
+| Vector [a, b, c]| spawn_offset| | Where the allay spawns/despawns in relation to the player. |
 | Decimal| spin_speed| | How fast the allay rotates around its target |
 | Decimal| travel_time| | How many seconds it takes to move between destinations. |
 

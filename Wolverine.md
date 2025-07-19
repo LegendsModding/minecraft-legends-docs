@@ -28,7 +28,7 @@ When designating a source file to convert, please make sure to confirm you're us
 
 To install and run Wolverine please do the following:
 
-1. Download the tool from the following link: [Insert Link here]
+1. Download the tool from the following link: [Download Link](https://github.com/LegendsModding/Wolverine/releases)
 2. Then extract the tool to the desired location.
 3. Run the WolverineUI.exe in the extracted folder or from a command prompt. For more information on command prompt usage see the “Command Prompt” section below.)
 

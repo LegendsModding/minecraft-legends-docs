@@ -575,9 +575,6 @@ This placement preference will score zones higher if they’re close to a partic
 
 The placement preference is the same as the close_to_district_start placement preference. It exists because it was added before it was possible to have multiple districts in a village.
 
-* _Miclee Note_:
-  * I have been using `close_to_village_start` a lot in the past, is it really the same? I need to test.
-
 ---
 
 ### Close to Walls

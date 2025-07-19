@@ -60,7 +60,7 @@ Our custom scripting language, **BSharp**, built on JavaScript, handles the bulk
 
 **NOTE**: The Wolverine tool itself has yet to be released, but for those curious they may access the documentation in the meanwhile.
 
-[Wolverine](Wolverine.md) is a versatile structure conversion tool for converting structures between Minecraft (Bedrock and Java) and Minecraft Lengeds. Taking `.nbt`, `.mcstructure`, or `.schematic` files made in Minecraft as input, this tool will create Minecraft Legends formatted structures to be used by creators in making their own Packs!
+[Wolverine](Wolverine.md) is a versatile structure conversion tool for converting structures between Minecraft (Bedrock and Java) and Minecraft Legends. Taking `.nbt`, `.mcstructure`, or `.schematic` files made in Minecraft as input, this tool will create Minecraft Legends formatted structures to be used by creators in making their own Packs!
 
 ---
 

@@ -170,83 +170,101 @@ B# is largely stateless, we listen to events and respond to them "right away". H
 
 Please **DO NOT** store variables like this `var thing = 123` at the global scope. Values like this still be lost to the void when the player exits and reloads.
 
-## **Advanced topics**
+## **Advanced Topics**
 
-These topics dive a little deeper into the nuance of our game, how we author scripts, as well as functions specific to game-modes like campaign.
+These topics dive a little deeper into the nuance of our game, how we author scripts, as well as functions specific to game modes like the campaign.
 
-### Configuration objects / files
+---
 
-Located at the top of scripts generally, are configuration objects which only contain “data” (and no logic). This presents an easy way to tune the functionality of a script as all the tunable values are grouped in one location.
+### **Configuration Objects and Files**
 
-**Notes**:
-You may notice special config objects existing in separate files entirely by themselves, with *another* script utilizing the config elsewhere.
-For example imagine `const gameConfig = {}` moved to a `a_new_game_mode_config.js` file. This is generally done for two reasons
+Configuration objects, typically located at the top of scripts, contain only data and no logic. This makes it easy to tune a script's functionality by grouping all tunable values in one place.
 
-- This allows developers to completely override the config (including removing it!) for separate game-modes, such as user-created `Lost Legends` and `Myths`!
-- Separates massive config files to shorten scripts, this is especially useful if multiple configs exists (e.g. `a_config_horde_attack.js`, `a_config_horde_defend.js`) which makes tracking changes much easier.
-- Modularity is always nice to have!
+**Notes on Configuration Files:**
 
-### Naming Conventions
+You may notice that some configuration objects exist in separate files. For example, moving `const gameConfig = {}` to a `a_new_game_mode_config.js` file is a common practice for a few reasons:
 
-When a constant or function at the global scope is prefixed with `_` it means this constant/function is **only** used within this file.
+-   **Modularity**: It allows developers to completely override the config for different game modes, such as user-created **Lost Legends** and **Myths**.
+-   **Readability**: It separates large config files, making scripts shorter and easier to manage, especially when multiple configs exist (e.g., `a_config_horde_attack.js`, `a_config_horde_defend.js`).
 
-Take, for example:
-`_SpawnAttackingUnits = () => { // return stuff }`
+---
 
-This provides an easy way to *know* if changing a function’s behavior could affect other scripts.
+### **Naming Conventions**
 
-Mojang note on semantics:
-To be clear this is purely used for semantics - all scripts are loaded at the global level meaning you *can* reference other file’s constants (but you shouldn’t!). If you get a ‘x declared already’ error this is most likely why!
-When `_` is used in a function though, it means the **function argument is not used**. For example `SNIPPET_EntitySpawned(..., (_spawnedEntity))` - if you don’t actually need to operate on the spawned entity in anyway.
+-   **Private Globals**: When a constant or function at the global scope is prefixed with `_`, it signifies that it is **only** used within that file.
 
-### File Naming Conventions & Load Order
+    -   **Example**:
 
-The file *path* (that includes the folder name!) determines the load order, sorted alphabetically. This is why we have some files named prefixed with `aaa_` to guarantee it loads first - this is used exclusively for files with helper functions, constants, and config files.
+        ```jsx
+        const _SpawnAttackingUnits = () => {
+            // Return stuff
+        };
+        ```
 
-### Helper functions
+        This convention helps you know if changing a function’s behavior might affect other scripts.
 
-Helper functions (local to a file or global to all) are ways to execute common functionality repeatedly. If you notice yourself duplicating scripts or doing something very similar make a helper function or reach out to fellow developers for assistance!
+-   **Unused Arguments**: When `_` is used as a function argument, it means the argument is not used.
 
-In the wonderful and mythical world of `B# land` we define functions like so:
+    -   **Example**:
+
+        ```jsx
+        SNIPPET_EntitySpawned("my_snippet", (_spawnedEntity, payload) => {
+            // Logic that doesn't use the spawned entity
+        });
+        ```
+
+-   **Mojang Note on Semantics**: This is a semantic convention. All scripts are loaded at the global level, so you *can* reference other files’ constants, but it's not recommended. If you get a "variable declared already" error, this is likely the cause.
+
+---
+
+### **File Naming and Load Order**
+
+The file path, including the folder name, determines the load order alphabetically. This is why some files are prefixed with `aaa_` to ensure they load first. This is typically used for helper functions, constants, and config files.
+
+---
+
+### **Helper Functions**
+
+Helper functions (local or global) are used to execute common functionality. If you find yourself duplicating scripts, consider creating a helper function.
+
+In `B#`, we define functions like this:
 
 ```jsx
-// or MyLocalFunction if you wanted it to be global!
+// Use a descriptive name, or prefix with _ for local functions
 const _myLocalFunction = (argument1, argument2) => {
-   // do stuff!
-}
-
+   // Do stuff
+};
 ```
 
-If you have used Javascript before then you may be more familiar with this syntax:
+This syntax is preferred over the traditional `function _myLocalFunction() {}` because it prevents function stomping, where a function is accidentally redefined, leading to hard-to-catch bugs.
 
-```function _myLocalFunction(argument1, argument2) => { }```
+---
 
-We don’t do this because you can redefine and *stomp* an existing function - which leads to really hard to catch bugs!
+### **Special “Libraries”**
 
-### Special “Libraries”
+`B#` includes special libraries that are fully scripted (with some reliance on the C++ backend) to perform complex tasks.
 
-`B#` has some special libraries fully*(some things do rely on the C++ backend) defined in script, utilizing all of `B#` to do neat things.
+-   `DECK_`: Used to draw and set `B#` decks (this is a special case and is not fully scripted).
+-   `[DEPRECATED] RALLYMAN_`: Used to group and dispatch units.
+-   `aaaa_ai_helpers.js`: Supersedes `RALLYMAN_` and is used to interface with the base AI.
 
-For example
+---
 
-- `DECK_` : Used to drawn and set`B#`decks (this is a special case and is not *fully* scripted)
-- [DEPRECATED] `RALLYMAN_` : Used to group and dispatch units.
-- `aaaa_ai_helpers.js` : Supersedes above, and unfortunately doesn’t have a prefix. Used to interface with base AI.
+### **Entity Destruction Listeners**
 
-### Entity Destruction Listeners
+Due to the massive open world of Minecraft Legends, there are several destruction listeners, each with its own nuance.
 
-Due to the massive open world nature of Minecraft Legends, we’ve had to introduce several destruction listeners each with their own nuance. Here’s an overview of all 3.
+| Listener | Guaranteed to Fire | Provides Destroyed Entity | Valid Entities | Intended Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| `NonPopCappedEntityDestroyed` | **Yes** | **Yes** | Non-pop-capped entities (e.g., structures, bosses) | Critical work based on a destroyed entity (e.g., progression). |
+| `PopCappedEntityDestroyed` | No | **Yes** | Any entity | Non-critical work (e.g., playing effects). |
+| `EntitiesAmountDestroyed` | **Yes** | No | Any entity | When you care about the *amount* of entities destroyed. |
 
-|  | Guaranteed to fire | Provides destroyed entity | Valid entities | Intended usecase |
-| --- | --- | --- | --- | --- |
-| NonPopCappedEntityDestroyed | Yes | Yes | Non pop cap entities (entities that can only be destroyed while unsuspended). Eg. Structures and bosses. | When you want to do critical work based off an entity that was destroyed. (eg. progression beats) |
-| PopCappedEntityDestroyed | No | Yes | Any entity. | When you want to do non-critical work based off an entity that was destroyed. (eg. play effects) |
-| EntitiesAmountDestroyed | Yes | No | Any entity. | When you care about amount of entities destroyed OR need to guarantee your snippet triggers. |
+---
 
-### Random Number Generation
+### **Random Number Generation**
 
-Avoid the standard library's `Math.random()` as it is not deterministic between instances of the game. Stick to `QUERY_RandomNumber` and `QUERY_RandomNumberGroup`.
+Avoid using `Math.random()` as it is not deterministic. Instead, use `QUERY_RandomNumber` and `QUERY_RandomNumberGroup`.
 
-The `Number` returned by `QUERY_RandomNumber` and `QUERY_RandomNumberGroup` is an integer and can immediately be used as an array index.
-
-Consider using `QUERY_RandomNumberGroup` for consistent randomness that you do not want to be affected by other areas of the game (eg: the player affecting the state of the game world).
+-   The `Number` returned by these functions is an integer and can be used as an array index.
+-   Use `QUERY_RandomNumberGroup` for consistent randomness that is not affected by other game events.
